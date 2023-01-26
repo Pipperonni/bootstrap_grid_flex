@@ -1,0 +1,182 @@
+.title-navbar{
+    background-color: black;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid black;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-family: Serif;
+}
+
+.navbutton{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.817);
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+.hero-image{
+    background-image: url(./img/backgroundimage.jpg);
+    height: 960px;
+    width: auto;
+    color: white;
+    align-content: center;
+    margin: 0;
+    padding: 340px 250px 160px;
+    font-size: 218px;
+    font-family: Serif;
+    border: 2px solid black;
+}
+
+.month-year{
+    margin: 180px 200px 30px;
+    text-align: left;
+    background-color: rgb(238, 236, 236);
+    height: 30px;
+    padding: 0 0 0 40px;
+    font-size: 25px;
+    border: 2px solid darkgray; 
+    border-radius: 2px;   
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-times{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "show-time-image show-time-info read-more";
+    
+    
+}
+
+.show-time-image{
+    width: auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 220px;
+
+}
+
+.show-time-info{
+    padding-left: 150px;
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 25px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.read-more{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(217, 187, 19, 0.939);
+    width: 150px;
+    height: 50px;
+    font-size: 23px;
+    text-align: center;
+    padding: 7px 0 ;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 2px;
+}
+
+hr{
+    width: 1600px;
+    padding-left: 200px;
+    
+}
+
+.info-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.map-image{
+    width: 500px;
+    height: 300px;
+}
+
+.info{
+    list-style: none;
+    padding-bottom: 45px;
+    color: white;
+}
+
+#info1{
+    font-size: 50px;
+    color: white;
+}
+
+#adress{
+    text-decoration: none;
+    color: white;
+}
+
+#email{
+    text-decoration: none;
+    color: white;
+}
+#phone{
+    text-decoration: none;
+    color: white;
+}
+
+.shows{
+    color: white;
+    list-style: none;
+    padding-bottom: px;
+}
+
+#shows1{
+    font-size: 50px;
+    color: white;    
+}
+
+#show1{
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    color: white;
+    list-style: none;
+   
+}
+
+#socials{
+    font-size: 50px;
+    color: white;
+}
+
+#social1{
+    text-decoration: none;
+    color: white;
+}
